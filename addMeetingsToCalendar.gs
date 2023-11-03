@@ -72,7 +72,7 @@ function addToCalendar() {
   var label = GmailApp.getUserLabelByName("meetings");
   var threads = label.getThreads();
   // Load the Calendar API
-  var calendar = CalendarApp.getCalendarById('clearglass207@gmail.com'); // Replace with your calendar ID
+  var calendar = CalendarApp.getCalendarById('YOUR_CALENDAR_ID'); // Replace with your calendar ID
   for (var i = 0; i < threads.length; i++) {
     var thread = threads[i];
     var messages = thread.getMessages();
